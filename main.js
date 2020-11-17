@@ -17,5 +17,6 @@ Animation repeats 3 times, with 3rd animation at a slower speed
 
 
 
-
+Winning prize should be determined by a generated MD5 hash, next player to open a box will win that predetermined hash. This is for security and fairness.
 */
+

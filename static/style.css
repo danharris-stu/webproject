@@ -63,7 +63,7 @@ body {
 
 /* About section */
 .spin{
-    min-height: 500px;
+    height: 450px;
     grid-area: spin;
     background-color: rgb(48,48,48);
     background-image: url('');
@@ -91,12 +91,14 @@ body {
   }
   
   .item {
-    height: 300px;
-    width: 200px;
-    background-img: url('images/items/Apprentice1Element5x.png');
+    height: 200px;
+    width: 300px;
+    /*background-image: url('images/items/Apprentice1Element5x.png');*/
     background-color: rgb(10,100,100);
-    padding: 10px;
+    margin: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
+    display: inline-block;
   }
